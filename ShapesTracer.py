@@ -1,3 +1,15 @@
+# ------------------------------------------
+#
+# 	Project:      VEXcode Project
+#	Author:       Mark Johnston
+#	Created:      2021-01-30
+#	Description:  code used at https://vr.vex.com for the Shape Tracer Playground
+#   Copyright:    Copyright and related rights waived via CC0
+#
+# ------------------------------------------
+
+# Library imports
+from vexcode import *
 
 def poly(num_sides, len):
     global myVariable
@@ -11,7 +23,7 @@ def when_started():
     if location.position(X, MM) == -842 and location.position(Y, MM) == 340:
         drivetrain.drive_for(FORWARD, 500, MM)
         drivetrain.turn_for(RIGHT, (180 - (180 - 90) / 2), DEGREES)
-        drivetrain.drive_for(FORWARD, math.sqrt(500 * 500 + 500 * 500), MM)
+        drivetrain.drive_for(FORWARD, math.sqrt(2 * (500**2)), MM)
         drivetrain.turn_for(RIGHT, (180 - (180 - 90) / 2), DEGREES)
         drivetrain.drive_for(FORWARD, 500, MM)
     if location.position(X, MM) == -180 and location.position(Y, MM) == 342:
@@ -54,7 +66,7 @@ def when_started():
                 drivetrain.turn_for(RIGHT, 135, DEGREES)
             else:
                 drivetrain.turn_for(LEFT, 135, DEGREES)
-            drivetrain.drive_for(FORWARD, math.sqrt(525 * 525 + 525 * 525), MM)
+            drivetrain.drive_for(FORWARD, math.sqrt(2 * (525**2)), MM)
             if repeat_count5 == 0:
                 drivetrain.turn_for(LEFT, 135, DEGREES)
             else:
