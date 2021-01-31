@@ -1,10 +1,10 @@
 # ------------------------------------------
 #
-# 	Project:      VEXcode Project
-#	Author:       Mark Johnston
-#	Created:      2021-01-30
-#	Description:  code used at https://vr.vex.com for the Shape Tracer Playground
-#   Copyright:    Copyright and related rights waived via CC0
+# Project:      VEXcode Project
+# Author:       Mark Johnston
+# Created:      2021-01-30
+# Description:  code used at https://vr.vex.com for the Shape Tracer Playground
+# Copyright:    Copyright and related rights waived via CC0
 #
 # ------------------------------------------
 
